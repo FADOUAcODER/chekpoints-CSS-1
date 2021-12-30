@@ -1,0 +1,171 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital@1&display=swap');
+
+.logo{
+    
+    font-family: 'Roboto', sans-serif;
+    font-size: 50px;
+    padding-right: 100%;
+}
+span{
+    color: rgb(255, 0, 119);
+}
+body{
+    background-color: rgb(238, 230, 163);
+    background-repeat: no-repeat;
+    background-attachment:fixed ;
+    width: 80%;
+    margin: auto;
+    
+}
+a{
+    text-decoration: none;
+    margin: 15px;
+    padding: 15px;
+    left: 70%;
+    color:white;
+
+}
+.navbar{
+    margin:auto;
+    padding:5px;
+    font-size: 30;
+    width: 60%;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: lightcoral;
+    border-color:white;
+    border-radius: 10px;
+    text-align: center;
+
+}
+.pic1{
+    width: 170px;
+    height: 170px;
+    border-radius: 50px;
+    float:right;
+    margin: 20px;
+    
+}
+.contenu{
+    text-align:center;
+    font-family: 'Roboto', sans-serif;
+    font-size: 50%;
+    color: black;
+
+}
+.head{
+    font-size: 50px;
+}
+img{
+    width: 150px;
+    height: 170px; 
+    display: inline-block;
+
+}
+.btn{
+    padding: 10px;
+    background-color: lightcoral;
+    border: 1px solid lightcoral;
+    border-radius: 25%;
+    color: white;
+    outline: none;
+    transition: 6s ease;
+    width: 110px;
+}
+.btn:hover{
+    cursor: pointer;
+    background-color: white;
+    color: black;
+    box-shadow: 0 0 5px white, 0 0 10px white, 0 0 15px white ;
+    font-weight: bold;
+}
+h1{
+    text-align:center;
+    font-family: 'Roboto', sans-serif;
+    color:black ; 
+}
+h3{
+    text-align:center;
+    font-family: 'Roboto', sans-serif;
+    font-size: 30px;
+    color:black ; 
+}  
+#intro{
+text-align:right; 
+padding: 10px;
+margin-right: 50px;
+}
+#intro h2{
+font-size: 2rem;
+margin-bottom: 20px;
+}
+#intro p{
+    font-size: 30px;
+    text-align:justify; 
+    margin-bottom: 20px;
+}
+.pic2{
+  width: 575px;  
+  height: 400px;
+}
+#work{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+}
+.images{
+display: flex;
+flex-wrap: wrap;
+justify-content: space-around;
+box-sizing: border-box;
+}
+.images img{
+width: 360px;
+height: 240px;
+margin:10px;
+}
+#resume{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+}
+.gallery{
+display: flex;
+flex-wrap: wrap;
+justify-content: space-around;
+box-sizing: border-box;
+}
+.gallery img{
+width: 400px;
+height: 350px;
+margin:10px;
+}
+
+input[type=text],
+input[type=number],
+input[type=password],
+input[type=email],
+textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical
+}
+
+input[type=submit] {
+    background-color: #04AA6D;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    background-color: #45a049;
+}
