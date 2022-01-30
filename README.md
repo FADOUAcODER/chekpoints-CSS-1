@@ -1,1 +1,1 @@
-# chekpoints-CSS-1
+# checkpoints-CSS-1
